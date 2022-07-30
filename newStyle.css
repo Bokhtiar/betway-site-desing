@@ -1,0 +1,70 @@
+.nav-wrapper{
+    height: 75px;
+    background-color: rgba(0,0,0,.8);
+}
+
+
+.nav-item > .nav-link{
+    font-weight: bold;
+}
+
+
+.login{
+    background-color: #00a826;
+    font-size: 16px;
+    min-height: 35px;
+    min-width: 99px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.register{
+    font-size: 16px;
+    min-height: 35px;
+    min-width: 99px;
+    padding: 8px 16px;
+    font-weight: bold;
+    color: #00a826;
+    text-align: center;
+    margin-left: 10px;
+    background: white;
+    border-radius: 5px;
+}
+.login:hover{
+    color: white;
+}
+
+.register:hover{
+    color: white;
+    background-color: #00a826;
+}
+
+
+/* banner section */
+.section-img{
+    background-image: url("images/first.jfif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 700px;
+}
+.banner-heading{
+    margin-top: 150px;
+    font-size: 22px;
+}
+.banner-text{
+    font-size: 74px;
+    font-weight: bold;
+}
+.banner-btn{
+    font-size: 36px;
+    height: 60px;
+    line-height: 44px;
+    padding: 0 54px;
+    color: white;
+    background-color: #00a826;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
