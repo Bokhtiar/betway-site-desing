@@ -40,38 +40,55 @@
     color: white;
     background-color: #00a826;
 }
-
-
-/* banner section */
-.banner{
-    margin-left:80px;
-    line-height: 86px;
-}
-.section-img{
-    background-image: url("images/first.jfif");
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 700px;
-}
-.banner-heading{
-    margin-top: 162px;
-    font-size: 22px;
-}
-.banner-text{
-    font-size: 74px;
-    font-weight: bold;
-}
-.banner-btn{
-    font-size: 36px;
-    height: 60px;
-    line-height: 44px;
-    padding: 0 54px;
+.top-nav {
+    background-color: #111;
     color: white;
-    background-color: #00a826;
-    border: none;
-    border-radius: 5px;
+    height: 26px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    margin-left: 25px;
+    color: white;
     font-weight: bold;
 }
-.banner-footer{
-    margin-left:80px;
+
+.underlineActive
+{
+    border-bottom: 3px solid #00a826;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.underline{
+    border-bottom: 3px solid #8f43e4;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.account{
+    line-height: 11px;
+    color: white;
+    margin-left: 30px;
+}
+.acountUnderline{
+    border-bottom: 1px solid;
+    width: 100%;
+    color: white;
+}
+
+.search-icon{
+    margin-top: 14px;
 }
