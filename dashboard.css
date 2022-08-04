@@ -126,3 +126,79 @@ li a {
     .nav-footer-ul> li> a:hover{
         color: white;
     }
+
+    .dashboard-body{
+        background-color: #C7C7C7;
+    }
+    .content-wrapper{
+        margin-top: 190px;   
+    }
+    .categoryItem{
+        border-bottom: 1px solid;
+        text-decoration: none;
+        list-style: none;
+        color: black;
+    }
+    .list-group-flush>.list-group-item{
+        height: 24px;
+        font-size: 13px;
+        line-height: 4px;
+    }
+    .dashboard-title{
+        font-size: 22px;
+        font-weight: 800;
+        color: #FFF;
+        line-height: 1.5;
+    }
+    .list-group-item{
+        border: 1px solid rgb(78 73 73 / 32%) 
+    }
+    .upcomming-title{
+        font-size: 14px;
+        background-color: #DBA80C;
+        color: black;
+        border-radius: 3px;
+    }
+    .team{
+        width: 86%;
+        background: #023047;
+        color: white;
+        border-radius: 3px;
+        border: none;
+    }
+    .vs{
+        font-weight: bold;
+    }
+    .date{
+        background-color: #007BFF;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .time{
+        background-color: #28A745;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+ 
+    .collapse-btn{
+      padding: 0px !important;
+      height: 50px;
+      background: #eaeaea;
+      border-radius: 7px;
+      
+    }
+    .accordion-button:focus{
+        background: #eaeaea;
+        box-shadow: 0 0 0 .0rem rgba(103, 120, 147, 0.25);
+    }
+    .accordion-button{
+      padding: 40px;
+    }
+    
+    .accordion-button::after {
+        margin-left: auto;
+    }

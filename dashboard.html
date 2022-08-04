@@ -78,40 +78,7 @@
     </section>
     <!--end of navbar-->
 
-    <style>
-        .dashboard-body{
-            background-color: #C7C7C7;
-        }
-        .content-wrapper{
-            margin-top: 190px;   
-        }
-        .categoryItem{
-            border-bottom: 1px solid;
-            text-decoration: none;
-            list-style: none;
-            color: black;
-        }
-        .list-group-flush>.list-group-item{
-            height: 24px;
-            font-size: 13px;
-            line-height: 4px;
-        }
-        .dashboard-title{
-            font-size: 22px;
-            font-weight: 800;
-            color: #FFF;
-            line-height: 1.5;
-        }
-        .list-group-item{
-            border: 1px solid rgb(78 73 73 / 32%) 
-        }
-        .upcomming-title{
-            font-size: 14px;
-            background-color: #DBA80C;
-            color: black;
-            border-radius: 3px;
-        }
-    </style>
+  
     <section class="dashboard-body">
         <section class="content-wrapper">
             <div class="row">
@@ -136,39 +103,113 @@
                         <div class="card-header" style=" height: 50px;background-color: #2C2C2C;">
                             <h2 class="dashboard-title"><i class="fa-solid fa-baseball"></i>&nbsp;&nbsp;In Play</h2>
                         </div>
-                        <div class="card-body">
+                        <div class="">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                      Accordion Item #1
+                                  <h2 class="accordion-header" id="flush-headingOne" >
+                                    <button style="border-radius: 5px;" class="collapse-btn headeing accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <table class="table table-borderless" style="border: none; margin: 0px;">
+                                            <thead class="">
+                                                <tr>
+                                                <th style="width: 73%" class="text-dark" scope="col"> LeagOne <span>Chine</span></th>
+                                                <th style="width:10%; font-size: 11px; font-weight: 600" class="text-dark" scope="col">Home</th>
+                                                <th style="width:10%; font-size: 11px; font-weight: 600" class="text-dark" scope="col">Draw</th>
+                                                <th style="width:10%; font-size: 11px; font-weight: 600" class="text-dark" scope="col">Away</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
                                     </button>
                                   </h2>
                                   <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    <div class="">
+                                        <table class="table table-bordered" style="width: 100%;">
+                                        <tbody class="">
+                                            <tr>
+                                                <td style="width:70%" >
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-lg-2 col-sm-2"><span>2:30</span></div>
+                                                        <div class="col-md-6 col-lg-6 col-sm-6"><span>Bangladesh-india</span></div>
+                                                        <div class="col-md-4 col-lg-4 col-sm-4"><span>0 0 0</span></div>
+                                                    </div>
+                                                </td>
+                                                <td style="width:10%">2.0</td>
+                                                <td style="width:10%">3.00</td>
+                                                <td style="width:10%">4.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:70%" >
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-lg-2 col-sm-2"><span>2:30</span></div>
+                                                        <div class="col-md-6 col-lg-6 col-sm-6"><span>Bangladesh-india</span></div>
+                                                        <div class="col-md-4 col-lg-4 col-sm-4"><span>0 0 0</span></div>
+                                                    </div>
+                                                </td>
+                                                <td style="width:10%">2.0</td>
+                                                <td style="width:10%">3.00</td>
+                                                <td style="width:10%">4.00</td>
+                                            </tr>
+
+                                            
+                                          </tbody>
+                                        </table>
+                                    </div>
                                   </div>
                                 </div>
+                            </div><!--sport live score--> 
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                      Accordion Item #2
+                                  <h2 class="accordion-header" id="flush-headingTow" >
+                                      
+                                    <button style="border-radius: 5px;" class="collapse-btn headeing accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <table class="table table-borderless" style="border: none; margin: 0px;">
+                                            <thead class="">
+                                                <tr>
+                                                <th style="width: 73%" class="text-dark" scope="col"> LeagOne <span>Chine</span></th>
+                                                <th style="width:10%; font-size: 11px; font-weight: 600" class="text-dark" scope="col">Home</th>
+                                                <th style="width:10%; font-size: 11px; font-weight: 600" class="text-dark" scope="col">Draw</th>
+                                                <th style="width:10%; font-size: 11px; font-weight: 600" class="text-dark" scope="col">Away</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
                                     </button>
                                   </h2>
-                                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingTow" data-bs-parent="#accordionFlushExample">
+                                    <div class="">
+                                        <table class="table table-bordered" style="width: 100%;">
+                                        <tbody class="">
+                                            <tr>
+                                                <td style="width:70%" >
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-lg-2 col-sm-2"><span>2:30</span></div>
+                                                        <div class="col-md-6 col-lg-6 col-sm-6"><span>Bangladesh-india</span></div>
+                                                        <div class="col-md-4 col-lg-4 col-sm-4"><span>0 0 0</span></div>
+                                                    </div>
+                                                </td>
+                                                <td style="width:10%">2.0</td>
+                                                <td style="width:10%">3.00</td>
+                                                <td style="width:10%">4.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:70%" >
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-lg-2 col-sm-2"><span>2:30</span></div>
+                                                        <div class="col-md-6 col-lg-6 col-sm-6"><span>Bangladesh-india</span></div>
+                                                        <div class="col-md-4 col-lg-4 col-sm-4"><span>0 0 0</span></div>
+                                                    </div>
+                                                </td>
+                                                <td style="width:10%">2.0</td>
+                                                <td style="width:10%">3.00</td>
+                                                <td style="width:10%">4.00</td>
+                                            </tr>
+
+                                            
+                                          </tbody>
+                                        </table>
+                                    </div>
                                   </div>
                                 </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="flush-headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                      Accordion Item #3
-                                    </button>
-                                  </h2>
-                                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-                                  </div>
-                                </div>
-                              </div>
+                            </div><!--sport live score-->
+
                         </div>
                     </div>
                 </div><!--in play-->
@@ -182,17 +223,22 @@
                             <div class="card" style="width: 18rem;">
                                 
                                 <div class="card-body">
-                                  <p class="card-text">
-                                      <span class="upcomming-title" >Cricket : Cwg T20 Competition 2022</span>
-                                      <div>
-                                          <span class="upcomming-btn">Bangladesh</span>
+                                  <p class="card-text text-center">
+                                      <span class="upcomming-title">Cricket : Cwg T20 Competition 2022</span>
+                                      <div class="text-center">
+                                          <button class="team">Bangladesh</button> <br>
+                                          <span class="text-center vs">VS</span><br>
+                                          <button class="team">India</button>
+                                      </div>
+                                      <div class="text-center my-2">
+                                          <span class="date">&nbsp;31aug 2022 </span> &nbsp; <span class="time">&nbsp;10:00 pm&nbsp;</sp>
                                       </div>
                                   </p>
                                 </div>
                               </div>
                         </div>
                     </div>
-                </div>
+                </div><!--upcomming-->
             </div>
         </section>
     </section>
