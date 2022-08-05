@@ -220,3 +220,37 @@ li a {
         padding: 0px !important;
         outline: 0px !important;
     }
+
+
+                        .cat-ul {
+                          list-style: none;
+                          margin: 0;
+                          padding: 0;
+                          overflow: hidden;
+                          background-color: #f2f2f2;
+                          
+                        }
+                        
+                        .cat>.cat-li {
+                          float: left;
+                          line-height: 5px;
+                          text-align: center;
+                          margin: 10px;
+                          
+                        }
+
+                        .d{
+                            border-right: 1px solid rgb(180, 180, 185);
+                            height: 50px; 
+                            text-align: center;
+                        }
+                        
+                        .cat-li> .cat-a {
+                          display: block;
+                          padding: 8px;
+                          color: #000000;
+                          text-decoration: none;
+
+                          line-height: 2px;
+                        }
+                        
