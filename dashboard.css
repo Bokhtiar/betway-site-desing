@@ -257,3 +257,18 @@ li a {
                           line-height: 2px;
                         }
                         
+.bg-profile{
+    background-color: #007bff;
+}
+.heading{
+    background: #000040;
+    padding: 6px;
+    margin-top: 55px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.card-bg{
+    background-color: #007bff;
+}
